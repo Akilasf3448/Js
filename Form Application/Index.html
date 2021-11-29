@@ -1,0 +1,77 @@
+<html>
+    <head><title>Application Form</title>
+      <script src="../Form Application/JavaScript/script.js"></script>
+      <link rel="stylesheet" href="../Form Application/Style/style.css">
+    </head>
+    
+    <body>
+        <center>
+          <h1>Submit Your Application</h1>
+          <h3> for.NET Developer (Fresher)</h3>
+        </center>
+          <h2>Personal Information</h2>
+          
+          <p>Name as per ID Proof <b class="star"> * </b> </p>
+          <input id=name type="text" name="Name "> 
+          <label id=labelName style="visibility: hidden;color: red;   "> Invalid </label><br><br>
+
+        
+          <p>Father's Name <b class="star"> * </b> </p>
+          <input id=fatherName type="text" name="Father Name ">
+          <label id=labelFatherName style="visibility: hidden; color: red; "> Invalid</label><br><br>
+
+
+          <p>Email <b class="star"> * </b class="star"> </p>
+          <input id="email" type="text" name="Email">
+          <label id=labelmail style="visibility: hidden; color: red;  "> Invalid</label><br><br>
+
+          <p>Date Of Birth <b class="star"> * </b> </p>
+          <input id=dob type="text" name="DOB">
+          <label id=labeldob style="visibility: hidden; color: red; "> Invalid</label><br><br>
+
+          <p>Mobile Number <b class="star"> * </b> </p>
+          <input id=number type="text" name="Mobile Number">
+          <label id=labelnumber id=labeldob style="visibility: hidden;  color: red; "> Invalid</label><br><br>
+
+          <p>Current Address <b class="star"> * </b> </p>
+          <input id="address1" type="text" name="Address line 2" placeholder="Address line 1 ">
+          <label id="labeladdress" id=labeldob style="visibility: hidden;  "> Invalid</label> <br><br>
+          <input id="address2" type="text" name="Address line 2" placeholder="Address line 2" >
+          <label id="labeladdress2" id=labeldob style="visibility: hidden; color: red; "> Invalid</label><br><br>
+          <input id="city" type="text" name="City" placeholder="City" >
+          <label id=labelcity style="visibility: hidden; color: red; "> Invalid</label>
+          <br> <br>
+          <select name="state" id="state" >
+              <option value=" ">State</option>
+            <option value="AndraPradesh">AndraPradesh</option>
+            <option value="Kerala">Kerala</option>
+            <option value="MadhyaPradesh">MadhyaPradesh</option>
+            <option value="TamilNadu">TamilNadu</option>
+          </select><br><br>
+          <input id="zipcode" type="text" name="Zip Code" placeholder="Zip Code" > 
+          <label id="labelzipcode" style="visibility: hidden; color: red; "> Invalid</label><br><br>
+
+          <p>permanent Address <b class="star"> * </b>  
+            <input type="checkbox" value="Same as Current Address">Same as Current Address
+          </p>
+          <input type="text" name="Address line 2" placeholder="Address line 1 "> &nbsp; &nbsp; &nbsp;
+          <input type="text" name="Address line 2" placeholder="Address line 2" > <br><br>
+          <input type="text" name="City" placeholder="City" > &nbsp;
+          <select name="state" id="state" >
+              <option value=" ">State</option>
+              <option value="AndraPradesh">AndraPradesh</option>
+              <option value="Kerala">Kerala</option>
+              <option value="MadhyaPradesh">MadhyaPradesh</option>
+              <option value="TamilNadu">TamilNadu</option>
+          </select>&nbsp;
+          <input type="text" name="Zip Code" placeholder="Zip Code" > <br><br>
+
+          <p>Upload Profile Photo <b class="star">*</b> (JPG/PNG Format Only) <br>
+           Please Upload a photo of yourself your face Should be clearly visible . Make sure does the image size does not exceed 500KB.
+          </p>
+          
+         <button>Upload Photo</button><br><br>
+         
+         <button onclick="buttonClick()">Submit</button>
+   </body>
+</html>
